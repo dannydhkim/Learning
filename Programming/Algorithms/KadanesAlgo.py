@@ -22,14 +22,14 @@ def maxSubArray(nums):
     return globalMax
 
 def main():
-    # test1 =  [-2,1,-3,4,-1,2,1,-5,4]
-    # print(maxSubArray(test1))
+    test1 =  [-2,1,-3,4,-1,2,1,-5,4]
+    print(maxSubArray(test1))
 
     test2 =  [15, -2, -1, -4, -2, -3, 13]
     print(maxSubArray(test2)) 
 
-    # test3 =  [-2, -5, 6, -2, -3, 1, 5, -6]
-    # print(maxSubArray(test3))
+    test3 =  [-2, -5, 6, -2, -3, 1, 5, -6]
+    print(maxSubArray(test3))
 
 if __name__ == "__main__":
     main()
